@@ -1,19 +1,17 @@
 /* ==UserStyle==
 @name           DXSCAPE
 @namespace      github.com/JA1UXV
-@version        1.0.0
-@description    A new userstyle
-@author         Me
+@version        1.0.2
+@description    DXSCAPE font change
+@author         JA1UXV
 ==/UserStyle== */
 
-@-moz-document url-prefix("http://www.dxscape.com/") {
-    
 @import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap');
-    
+
+@-moz-document domain("dxscape.com") {
+
 * {
-  font-family: "Libertinus Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
-}   
-    
+    font-family: "Libertinus Mono", monospace !important;
+  }
+
 }
