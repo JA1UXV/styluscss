@@ -1,8 +1,8 @@
 /* ==UserStyle==
 @name           Dxscape
 @namespace      github.com/JA1UXV
-@version        1.0.0
-@description    DXSCAPE font change
+@version        1.0.1
+@description    DXSCAPE Design Change
 @author         JA1UXV
 ==/UserStyle== */
 
@@ -10,8 +10,8 @@
 
 @-moz-document domain("dxscape.com") {
 
-* {
-    font-family: "Libertinus Mono", monospace !important;
-  }
+*{
+font-family: "Libertinus Mono", monospace !important;
+}
 
 }
