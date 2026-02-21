@@ -1,17 +1,25 @@
 /* ==UserStyle==
 @name           Dxscape
 @namespace      github.com/JA1UXV
-@version        1.0.1
+@version        1.0.2
 @description    DXSCAPE Design Change
 @author         JA1UXV
 ==/UserStyle== */
 
-@import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
 
 @-moz-document domain("dxscape.com") {
 
 *{
-font-family: "Libertinus Mono", monospace !important;
+  font-family: "Nova Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background: linear-gradient(black, yellow);
+  color: Linen;
+  overflow: hidden;
 }
 
 }
