@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dxscape
 @namespace      github.com/JA1UXV
-@version        1.0.2
+@version        1.0.3
 @description    DXSCAPE Design Change
 @author         JA1UXV
 ==/UserStyle== */
@@ -16,10 +16,20 @@
   font-style: normal;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
-  background: linear-gradient(black, yellow);
-  color: Linen;
+  background: linear-gradient(gold, black);
+  color: white;
   overflow: hidden;
+}
+
+a {
+    color: khaki;
+    text-decoration: none;
 }
 
 }
