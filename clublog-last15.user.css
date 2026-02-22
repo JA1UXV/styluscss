@@ -1,0 +1,63 @@
+/* ==UserStyle==
+@name           Clublog Last 15
+@namespace      github.com/JA1UXV
+@version        1.0.1
+@description    CLUBLOG Last15 QSO
+@author         JA1UXV
+==/UserStyle== */
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+@-moz-document url-prefix("https://clublog.org/last10") {
+/* ここにコードを挿入... */
+
+* {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+  background: radial-gradient(orange, black);
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  overflow: hidden;
+}
+
+table tr:first-child td:first-child {
+  background-color: white;
+}
+
+table tr:nth-child(2) td:first-child {
+  background-color: white;
+}
+
+td {
+background-color: black;
+color: white;
+}
+
+@media (min-width: 1920px) {
+    body {
+    transform: scale(2.64);
+    transform-origin: center center;
+    margin: 0;
+}
+}
+
+@media (max-width: 1680px) {
+    body {
+    transform: scale(2.55);
+    transform-origin: center center;
+    margin: 0;    
+}
+}
+
+}
