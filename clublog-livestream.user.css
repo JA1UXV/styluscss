@@ -15,20 +15,20 @@
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-  font-variation-settings:
-    "ROND" 0;
+  font-variation-settings:  "ROND" 0;
+  color: gold;
 }
 
 html, body {
-    height: 100%;
-    margin: 0;
+  height: 100%;
+  margin: 0;
 }
 
 body {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    overflow: hidden;
+ display: flex !important;
+ justify-content: center !important;
+ align-items: center !important;
+ overflow: hidden;
 }
 
 @media (min-width: 1920px) {
