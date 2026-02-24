@@ -1,18 +1,18 @@
 /* ==UserStyle==
 @name           Clublog Last 15
 @namespace      github.com/JA1UXV
-@version        1.0.3
+@version        1.0.4
 @description    Clublog Last15 QSO Design Change
 @author         JA1UXV
 ==/UserStyle== */
 
-@import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
 @-moz-document url-prefix("https://clublog.org/last10") {
-/* ここにコードを挿入... */
 
 * {
-  font-family: "Libertinus Mono", monospace;
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
