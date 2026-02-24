@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           QRZ.COM
 @namespace      github.com/JA1UXV
-@version        1.0.4
+@version        1.0.5
 @description    QRZ.COM Last15 QSO Design Change
 @author         JA1UXV
 ==/UserStyle== */
@@ -23,7 +23,7 @@
     }
 
     body {
-        background: linear-gradient(135deg, blue, black);
+        background: linear-gradient(135deg, green, navy);
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
