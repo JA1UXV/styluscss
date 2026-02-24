@@ -1,61 +1,56 @@
 /* ==UserStyle==
 @name           QRZ.COM
 @namespace      github.com/JA1UXV
-@version        1.0.2
+@version        1.0.3
 @description    QRZ.COM Last15 QSO Design Change
 @author         JA1UXV
 ==/UserStyle== */
-
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
 @-moz-document domain("qrz.com") {
-/* ここにコードを挿入... */
+    /* ここにコードを挿入... */
+    * {
+        font-family: "Audiowide", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white !important;
+    }
 
-* {
-  font-family: "Audiowide", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-html, body {
-    height: 100%;
-    margin: 0;
-}
-
-body {
-  background: radial-gradient(navy, green);
-  color:ivory;
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  overflow: hidden;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-.ttl {
-    color: white;
-    text-decoration: none;
-}
-
-@media (min-width: 1920px) {
+    html,
     body {
-    transform: scale(1.95);
-    transform-origin: center center;
-    margin: 0;
-}
-}
+        height: 100%;
+        margin: 0;
+    }
 
-@media (max-width: 1680px) {
     body {
-    transform: scale(1.91);
-    transform-origin: center center; 
-    margin: 0;
-    
-}
-}
+        background: radial-gradient(navy, green);
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        overflow: hidden;
+    }
 
+    a {
+        text-decoration: none;
+    }
+
+    .ttl {
+        text-decoration: none;
+    }
+
+    @media (min-width: 1920px) {
+        body {
+            transform: scale(1.95);
+            transform-origin: center center;
+            margin: 0;
+        }
+    }
+
+    @media (max-width: 1680px) {
+        body {
+            transform: scale(1.91);
+            transform-origin: center center;
+            margin: 0;
+        }
+    }
 }
