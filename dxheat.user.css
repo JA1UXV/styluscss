@@ -1,0 +1,30 @@
+/* ==UserStyle==
+@name           DXHeat
+@namespace      github.com/JA1UXV
+@version        1.0.1
+@description    DXHeat Design Change
+@author         JA1UXV
+==/UserStyle== */
+
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+
+@-moz-document domain("dxheat.com") {
+
+*{
+  font-family: "Wallpoet", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+  background: linear-gradient(#438eb9, white);
+  color: black;
+  overflow: hidden;
+}
+
+}
