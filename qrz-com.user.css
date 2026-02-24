@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           QRZ.COM
 @namespace      github.com/JA1UXV
-@version        1.0.3
+@version        1.0.4
 @description    QRZ.COM Last15 QSO Design Change
 @author         JA1UXV
 ==/UserStyle== */
@@ -13,7 +13,7 @@
         font-family: "Audiowide", sans-serif;
         font-weight: 400;
         font-style: normal;
-        color: white !important;
+        color: ivory !important;
     }
 
     html,
@@ -23,7 +23,7 @@
     }
 
     body {
-        background: radial-gradient(navy, green);
+        background: linear-gradient(135deg, blue, black);
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
