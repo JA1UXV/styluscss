@@ -39,8 +39,8 @@
 
     @media (max-width: 1680px) {
         body {
-            transform: scale(1.50);
-            transform-origin: 690px top;
+            transform: scale(1.41);
+            transform-origin: 810px top;
             margin: 0;
         }
     }
