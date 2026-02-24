@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Clublog Last 15
 @namespace      github.com/JA1UXV
-@version        1.0.5
+@version        1.0.6
 @description    Clublog Last15 QSO Design Change
 @author         JA1UXV
 ==/UserStyle== */
@@ -30,6 +30,15 @@
         overflow: hidden;
     }
 
+    table{
+        background-color: transparent !important;
+    }
+
+    td {
+        background-color: transparent !important;
+        color: white;
+    }
+
     table tr:first-child td:nth-child(2),
     table tr:first-child td:nth-child(3),
     table tr:first-child td:nth-child(4) {
@@ -44,13 +53,8 @@
     table tr:nth-child(2) td:first-child {
         background-color: white !important;
     }
-
-    td {
-        background-color: black;
-        color: white;
-    }
-
-    @media (min-width: 1920px) {
+    
+    @media (max-width: 1920px) {
         body {
             transform: scale(2.64);
             transform-origin: center center;
