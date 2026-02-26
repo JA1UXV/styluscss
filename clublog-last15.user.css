@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Clublog Last 15
 @namespace      github.com/JA1UXV
-@version        1.0.7
+@version        1.0.8
 @description    Clublog Last15 QSO Design Change
 @author         JA1UXV
 ==/UserStyle== */
@@ -24,7 +24,6 @@
     }
 
     body {
-        background: radial-gradient(orange, black);
         background: linear-gradient(to bottom right, black, orange);
         display: flex !important;
         justify-content: center !important;
