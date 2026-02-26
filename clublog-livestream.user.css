@@ -1,14 +1,14 @@
 /* ==UserStyle==
 @name           Clublog Livestream
 @namespace      github.com/JA1UXV
-@version        1.0.7
+@version        1.0.8
 @description    Clublog Livestream Design Change
 @author         Me
 ==/UserStyle== */
 
 @import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
 
-@-moz-document url-prefix("https://clublog.org/livestream/") {
+@-moz-document url-prefix("https://clublog.org/livestream") {
 
     * {
         font-family: "Doto", sans-serif;
