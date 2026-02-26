@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Clublog Livestream
 @namespace      github.com/JA1UXV
-@version        1.0.3
+@version        1.0.4
 @description    Clublog Livestream Design Change
 @author         Me
 ==/UserStyle== */
@@ -10,39 +10,39 @@
 
 @-moz-document url-prefix("https://clublog.org/livestream/") {
 
-* {
-  font-family: "Doto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  font-variation-settings:  "ROND" 0;
-  color: gold;
-}
+    * {
+        font-family: "Doto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-variation-settings: "ROND" 0;
+        color: white;
+    }
 
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
-body {
- display: flex !important;
- justify-content: center !important;
- align-items: center !important;
- overflow: hidden;
-}
-
-@media (min-width: 1920px) {
+    html,
     body {
-    transform: scale(1.77, 1.80);
-    transform-origin: center center;
-}
-}
+        height: 100%;
+        margin: 0;
+    }
 
-@media (max-width: 1680px) {
     body {
-    transform: scale(1.53, 1.72);
-    transform-origin: center center;
-}
-}
-    
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        overflow: hidden;
+    }
+
+    @media (min-width: 1920px) {
+        body {
+            transform: scale(1.77, 1.80);
+            transform-origin: center center;
+        }
+    }
+
+    @media (max-width: 1680px) {
+        body {
+            transform: scale(1.53, 1.72);
+            transform-origin: center center;
+        }
+    }
 }
