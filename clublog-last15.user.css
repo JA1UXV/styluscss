@@ -25,7 +25,7 @@
 
     body {
         background: radial-gradient(orange, black);
-        background: linear-gradient(to bottom right, orange, black);
+        background: linear-gradient(to bottom right, black, orange);
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
