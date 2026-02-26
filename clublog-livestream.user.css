@@ -5,6 +5,7 @@
 @description    Clublog Livestream Design Change
 @author         Me
 ==/UserStyle== */
+
 @import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
 
 @-moz-document url-prefix("https://clublog.org/livestream/") {
@@ -25,8 +26,8 @@
     }
 
     body {
-      background: linear-gradient(to bottom right, black, orange);
-      display: flex !important;
+        background: linear-gradient(to bottom right, black, 80%, maroon);
+        display: flex !important;
         justify-content: center !important;
         align-items: center !important;
         overflow: hidden;
