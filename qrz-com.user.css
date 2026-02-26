@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           QRZ.COM
 @namespace      github.com/JA1UXV
-@version        1.0.6
+@version        1.0.7
 @description    QRZ.COM Last15 QSO Design Change
 @author         JA1UXV
 ==/UserStyle== */
@@ -9,7 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
 @-moz-document domain("qrz.com") {
-    /* ここにコードを挿入... */
+
     * {
         font-family: "Audiowide", sans-serif;
         font-weight: 400;
@@ -24,7 +24,7 @@
     }
 
     body {
-        background: linear-gradient(to bottom right, cyan, black);
+        background: linear-gradient(to bottom right, cyan, 40%, black) !important;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
