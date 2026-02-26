@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Clublog Livestream
 @namespace      github.com/JA1UXV
-@version        1.0.5
+@version        1.0.6
 @description    Clublog Livestream Design Change
 @author         Me
 ==/UserStyle== */
@@ -25,7 +25,8 @@
     }
 
     body {
-        display: flex !important;
+      background: linear-gradient(to bottom right, black, orange);
+      display: flex !important;
         justify-content: center !important;
         align-items: center !important;
         overflow: hidden;
