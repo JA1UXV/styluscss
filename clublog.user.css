@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Clublog
 @namespace      github.com/JA1UXV
-@version        1.0.2
+@version        1.0.3
 @description    Clublog Custom
 @author         JA1UXV
 ==/UserStyle== */
@@ -11,10 +11,10 @@
 @-moz-document domain("clublog.org") {
 
     * {
-        font-family: "Montserrat", sans-serif !important;
-        font-optical-sizing: auto !important;
-        font-weight: 400 !important;
-        font-style: normal !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
     }
 
     @media (min-width: 1920px) {
@@ -33,9 +33,53 @@
 }
 
 /* =========================
+      Livestream 専用
+========================= */
+
+@-moz-document url-prefix("https://clublog.org/livestream/") {
+
+    * {
+  font-family: "Montserrat", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+    }
+
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    overflow: hidden;
+}
+
+    @media (min-width: 1920px) {
+        body {
+            transform: scale(1.36) !important;
+            transform-origin: center center !important;
+                overflow: hidden;
+        }
+    }
+
+    @media (max-width: 1680px) {
+        body {
+            transform: scale(1.5) !important;
+            transform-origin: 0 0 !important;
+                overflow: hidden;
+        }
+    }
+}
+
+/* =========================
      My Livestream 専用
 ========================= */
-@-moz-document url-prefix("https://clublog.org/livestream/") {
+
+@-moz-document url("https://clublog.org/livestream/JA1UXV"), url("https://clublog.org/livestream/JO2KQJ") {
 
     * {
         font-family: "Doto", sans-serif !important;
@@ -46,8 +90,7 @@
         color: white !important;
     }
 
-    html,
-    body {
+   html, body {
         height: 100%;
         margin: 0;
     }
@@ -57,7 +100,7 @@
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
-        overflow: hidden !important;
+        overflow: hidden;
     }
 
     @media (min-width: 1920px) {
@@ -73,11 +116,13 @@
             transform-origin: center center !important;
         }
     }
+
 }
 
 /* =========================
      Last 15 QSO 専用
 ========================= */
+
 @-moz-document url-prefix("https://clublog.org/last10") {
 
     * {
@@ -98,7 +143,7 @@
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
-        overflow: hidden !important;
+        overflow: hidden;
     }
 
     table {
