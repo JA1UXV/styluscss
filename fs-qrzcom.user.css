@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           QRZ.COM
 @namespace      github.com/JA1UXV
-@version        1.1.0
+@version        1.1.1
 @description    QRZ.COM Custom
 @author         JA1UXV
 ==/UserStyle== */
@@ -24,7 +24,7 @@
     }
 
     body {
-        background: linear-gradient(to bottom right, cyan, 40%, black) !important;
+        background: linear-gradient(to bottom right, cyan, 33%, black) !important;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
