@@ -1,10 +1,11 @@
 /* ==UserStyle==
 @name           HamQTH
 @namespace      github.com/JA1UXV
-@version        1.0.0
-@description    HamQTH Last10 QSO Design Change
+@version        1.1.0
+@description    HamQTH Custom
 @author         JA1UXV
 ==/UserStyle== */
+
 @import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
 
 @-moz-document domain("hamqth.com") {
