@@ -1,85 +1,18 @@
 /* ==UserStyle==
 @name           Clublog
 @namespace      github.com/JA1UXV
-@version        1.0.0
+@version        1.0.1
 @description    Clublog Custom
 @author         JA1UXV
 ==/UserStyle== */
 
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Doto:wght@100..900&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-@-moz-document domain("clublog.org") {
-
-    * {
-  font-family: "Montserrat", sans-serif !important;
-  font-optical-sizing: auto !important;
-  font-weight: 400 !important;
-  font-style: normal !important;
-    }
-
-    @media (min-width: 1920px) {
-        body {
-            transform: scale(1.80) !important;
-            transform-origin: center top !important;
-        }
-    }
-
-    @media (max-width: 1680px) {
-        body {
-            transform: scale(1.5) !important;
-            transform-origin: center top !important;
-        }
-    }
-}
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Lexend:wght@100..900&display=swap');
 
 /* =========================
-      Livestream 専用
+    Personal Livestream 
 ========================= */
-
-@-moz-document url-prefix("https://clublog.org/livestream/") {
-
-    * {
-  font-family: "Montserrat", sans-serif !important;
-  font-optical-sizing: auto !important;
-  font-weight: 400 !important;
-  font-style: normal !important;
-    }
-
-html, body {
-    height: 100%;
-    margin: 0;
-    overflow: hidden;
-}
-
-body {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    overflow: hidden;
-}
-
-    @media (min-width: 1920px) {
-        body {
-            transform: scale(1.36) !important;
-            transform-origin: center center !important;
-                overflow: hidden;
-        }
-    }
-
-    @media (max-width: 1680px) {
-        body {
-            transform: scale(1.5) !important;
-            transform-origin: 0 0 !important;
-                overflow: hidden;
-        }
-    }
-}
-
-/* =========================
-     My Livestream 専用
-========================= */
-
-@-moz-document url("https://clublog.org/livestream/JA1UXV"), url("https://clublog.org/livestream/JO2KQJ") {
+@-moz-document url("https://clublog.org/livestream/JA1UXV"),
+url("https://clublog.org/livestream/JO2KQJ") {
 
     * {
         font-family: "Doto", sans-serif !important;
@@ -90,17 +23,26 @@ body {
         color: white !important;
     }
 
-   html, body {
+    html,
+    body {
         height: 100%;
         margin: 0;
     }
 
     body {
-        background: linear-gradient(to bottom right, black, 80%, maroon) !important;
+        background: linear-gradient(to bottom right, black, #e21b1b) !important;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
         overflow: hidden;
+    }
+
+    th {
+        background-color: transparent !important;
+    }
+
+    .button {
+        background-color: transparent !important;
     }
 
     @media (min-width: 1920px) {
@@ -116,13 +58,11 @@ body {
             transform-origin: center center !important;
         }
     }
-
 }
 
 /* =========================
-     Last 15 QSO 専用
+   Personal [Last 15 QSO]
 ========================= */
-
 @-moz-document url-prefix("https://clublog.org/last10") {
 
     * {
