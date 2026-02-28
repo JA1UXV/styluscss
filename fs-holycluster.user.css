@@ -1,8 +1,8 @@
 /* ==UserStyle==
 @name           Holy-Cluster
 @namespace      github.com/JA1UXV
-@version        1.0.0
-@description    Holy Cluster Design Change
+@version        1.1.0
+@description    Holy Cluster Custom
 @author         JA1UXV
 ==/UserStyle== */
 
@@ -10,26 +10,26 @@
 
 @-moz-document domain("holycluster.iarc.org") {
 
-*{
-  font-family: "Gluten", cursive;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings: "slnt" 0;
-}
+    * {
+        font-family: "Gluten", cursive;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings: "slnt" 0;
+    }
 
-html, body {
-  height: 100%;
-  margin: 0;
-}
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+    }
 
-body {
-  overflow: hidden;
-}
+    body {
+        overflow: hidden;
+    }
 
-a {
-    color: khaki;
-    text-decoration: none;
-}
-
+    a {
+        color: khaki;
+        text-decoration: none;
+    }
 }
