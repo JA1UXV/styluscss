@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Clublog
 @namespace      github.com/JA1UXV
-@version        1.1.0
+@version        1.1.2
 @description    Clublog Custom
 @author         JA1UXV
 ==/UserStyle== */
@@ -30,7 +30,7 @@ url("https://clublog.org/livestream/JO2KQJ") {
     }
 
     body {
-        background: linear-gradient(to bottom right, black, #e21b1b) !important;
+        background: linear-gradient(to bottom right, black, 66%, #e21b1b) !important;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
