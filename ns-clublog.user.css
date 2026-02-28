@@ -6,7 +6,7 @@
 @author         JA1UXV
 ==/UserStyle== */
 
-@import url('https://fonts.googleapis.com/css2?family=Anta&family=Libertinus+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Libertinus+Mono&display=swap');
 
 @-moz-document domain("clublog.org") {
 
@@ -37,9 +37,11 @@
 @-moz-document url-prefix("https://clublog.org/livestream/") {
 
     * {
-        font-family: "Libertinus Mono", monospace !important;
+        font-family: "Cascadia Mono", sans-serif !important;
+        font-optical-sizing: auto !important;
         font-weight: 400 !important;
-        font-style: Italic !important;
+        font-style: normal !important;
+        color: white !important;
     }
 
     html,
@@ -50,11 +52,19 @@
     }
 
     body {
-        background: linear-gradient(to bottom right, black, 72%, blue) !important;
+        background: linear-gradient(to bottom right, black, blue) !important;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
         overflow: hidden;
+    }
+
+    th {
+        background-color: transparent !important;
+    }
+
+    .button {
+        background-color: transparent !important;
     }
 
     @media (min-width: 1920px) {
