@@ -1,20 +1,19 @@
 /* ==UserStyle==
 @name           Clublog
 @namespace      github.com/JA1UXV
-@version        1.0.0
+@version        1.0.1
 @description    Clublog Custom
 @author         JA1UXV
 ==/UserStyle== */
 
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Doto:wght@100..900&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Syne+Mono&display=swap');
 
 @-moz-document domain("clublog.org") {
 
     * {
-  font-family: "Montserrat", sans-serif !important;
-  font-optical-sizing: auto !important;
-  font-weight: 400 !important;
-  font-style: normal !important;
+        font-family: "Anta", sans-serif !important;
+        font-weight: 400 !important;
+        font-style: normal !important;
     }
 
     @media (min-width: 1920px) {
@@ -35,34 +34,33 @@
 /* =========================
       Livestream 専用
 ========================= */
-
 @-moz-document url-prefix("https://clublog.org/livestream/") {
 
     * {
-  font-family: "Montserrat", sans-serif !important;
-  font-optical-sizing: auto !important;
-  font-weight: 400 !important;
-  font-style: normal !important;
+        font-family: "Syne Mono", monospace !important;
+        font-weight: 400;
+        font-style: normal;
     }
 
-html, body {
-    height: 100%;
-    margin: 0;
-    overflow: hidden;
-}
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
 
-body {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    overflow: hidden;
-}
+    body {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        overflow: hidden;
+    }
 
     @media (min-width: 1920px) {
         body {
-            transform: scale(1.36) !important;
+            transform: scale(1.41) !important;
             transform-origin: center center !important;
-                overflow: hidden;
+            overflow: hidden;
         }
     }
 
@@ -70,7 +68,7 @@ body {
         body {
             transform: scale(1.5) !important;
             transform-origin: 0 0 !important;
-                overflow: hidden;
+            overflow: hidden;
         }
     }
 }
