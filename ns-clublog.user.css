@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Clublog
 @namespace      github.com/JA1UXV
-@version        1.0.5
+@version        1.0.6
 @description    Clublog Custom
 @author         JA1UXV
 ==/UserStyle== */
@@ -51,7 +51,7 @@
     }
 
     body {
-        background: linear-gradient(to bottom right, black, blue) !important;
+        background: linear-gradient(to bottom right, black, 77%, blue) !important;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
