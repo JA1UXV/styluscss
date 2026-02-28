@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           DXHeat
 @namespace      github.com/JA1UXV
-@version        1.0.1
+@version        1.1.0
 @description    DXHeat Design Change
 @author         JA1UXV
 ==/UserStyle== */
@@ -11,9 +11,9 @@
 @-moz-document domain("dxheat.com") {
 
     * {
-  font-family: "Amarante", serif;
-  font-weight: 400;
-  font-style: normal;
+        font-family: "Amarante", serif;
+        font-weight: 400;
+        font-style: normal;
     }
 
     html,
