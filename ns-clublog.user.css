@@ -1,12 +1,12 @@
 /* ==UserStyle==
 @name           Clublog
 @namespace      github.com/JA1UXV
-@version        1.0.1
+@version        1.0.2
 @description    Clublog Custom
 @author         JA1UXV
 ==/UserStyle== */
 
-@import url('https://fonts.googleapis.com/css2?family=Anta&family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Libertinus+Mono&display=swap');
 
 @-moz-document domain("clublog.org") {
 
@@ -37,9 +37,9 @@
 @-moz-document url-prefix("https://clublog.org/livestream/") {
 
     * {
-        font-family: "Syne Mono", monospace !important;
-        font-weight: 400;
-        font-style: normal;
+        font-family: "Libertinus Mono", monospace !important;
+        font-weight: 400 !important;
+        font-style: Italic !important;
     }
 
     html,
@@ -50,6 +50,7 @@
     }
 
     body {
+        background: linear-gradient(to bottom right, black, 72%, blue) !important;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
@@ -58,7 +59,7 @@
 
     @media (min-width: 1920px) {
         body {
-            transform: scale(1.41) !important;
+            transform: scale(1.35) !important;
             transform-origin: center center !important;
             overflow: hidden;
         }
