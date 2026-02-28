@@ -1,23 +1,14 @@
 /* ==UserStyle==
 @name           HRDLOG
 @namespace      github.com/JA1UXV
-@version        1.1.0
+@version        1.1.1
 @description    HRDLOG Custom
 @author         JA1UXV
 ==/UserStyle== */
 
-@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Special+Elite&display=swap');
 
 @-moz-document domain("hrdlog.net") {
-
-    * {
-        font-family: "Zen Dots", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 12px;
-        line-height: 1.8;
-        letter-spacing: 0.15em;
-    }
 
     html,
     body {
@@ -26,24 +17,64 @@
     }
 
     body {
-        background: linear-gradient(to bottom right, black, green, black) !important;
-        color: ivory;
-        display: flex !important;
+        background: linear-gradient(to bottom right, black, maroon) !important;
+    display: flex !important;
         justify-content: center !important;
         align-items: center !important;
         overflow: hidden;
     }
 
-    tr td {
-        padding-left: 9px;
-        padding-right: 9px;
+    table {
+        background-color: transparent !important;
+        border-collapse: collapse !important;
+    }
+
+    table th,
+    table td {
+        border: 1px solid black;
+    }
+
+    table th {
+        background-color: transparent !important;
+        font-family: "Righteous", sans-serif !important;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 0.1em;
+
+        color: white !important;
+        padding: 3px 6px;
+    }
+
+    table td {
+        background-color: transparent !important;
+        font-family: "Special Elite", system-ui !important;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: 0.15em;
+        padding: 0px 6px;
+    }
+
+    table tr:nth-child(even) {
+        background-color: transparent !important;
+        color: #E0FFFF !important;
+    }
+
+    table tr:nth-child(odd) {
+        color: #FFC0CB !important;
+    }
+
+    table tr:nth-child(1) td:nth-child(1),
+    table tr:nth-child(1) td:nth-child(2) {
+        background-color: transparent !important;
+        border: 1px solid transparent !important;
     }
 
     @media (min-width: 1920px) {
         body {
             transform: scale(2.37);
             transform-origin: center center;
-            margin: -108px 0 0 0;
+            margin: -114px 0 0 0;
         }
     }
 
