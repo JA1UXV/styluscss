@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Clublog Overall
 @namespace      github.com/JA1UXV
-@version        1.0.8
+@version        1.0.9
 @description    Clublog Custom
 @author         JA1UXV
 ==/UserStyle== */
@@ -76,7 +76,7 @@
 
     @media (max-width: 1680px) {
         body {
-            transform: scale(1.31) !important;
+            transform: scale(1.33) !important;
             transform-origin: center center !important;
             overflow: hidden;
         }
