@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Clublog
 @namespace      github.com/JA1UXV
-@version        1.1.9
+@version        1.1.10
 @description    Clublog Custom
 @author         JA1UXV
 ==/UserStyle== */
@@ -27,7 +27,7 @@ url("https://clublog.org/livestream/JO2KQJ") {
     }
 
     body {
-        background: #e21b1b !important;
+        background: black !important;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
@@ -39,7 +39,7 @@ url("https://clublog.org/livestream/JO2KQJ") {
     }
 
     .contentTable {
-        background: radial-gradient(yellow, #e21b1b) !important;
+        background: radial-gradient(#e21b1b, gold) !important;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
