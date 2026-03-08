@@ -1,11 +1,10 @@
 /* ==UserStyle==
 @name           Clublog
 @namespace      github.com/JA1UXV
-@version        1.1.7
+@version        1.1.8
 @description    Clublog Custom
 @author         JA1UXV
 ==/UserStyle== */
-
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Kode+Mono:wght@400..700&family=Libertinus+Mono&display=swap');
 
 /* =========================
@@ -28,7 +27,7 @@ url("https://clublog.org/livestream/JO2KQJ") {
     }
 
     body {
-        background: black !important;
+        background: #e21b1b !important;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
@@ -40,7 +39,7 @@ url("https://clublog.org/livestream/JO2KQJ") {
     }
 
     .contentTable {
-        background: linear-gradient(to bottom right, yellow, #e21b1b) !important;
+        background: radial-gradient(yellow, #e21b1b) !important;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
@@ -58,7 +57,7 @@ url("https://clublog.org/livestream/JO2KQJ") {
 
     @media (min-width: 1920px) {
         body {
-            transform: scale(1.77, 1.80) !important;
+            transform: scale(1.77) !important;
             transform-origin: center center !important;
         }
     }
