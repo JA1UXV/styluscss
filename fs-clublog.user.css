@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Clublog
 @namespace      github.com/JA1UXV
-@version        1.1.5
+@version        1.1.6
 @description    Clublog Custom
 @author         JA1UXV
 ==/UserStyle== */
@@ -63,13 +63,6 @@ url("https://clublog.org/livestream/JO2KQJ") {
    Personal [Last 15 QSO]
 ========================= */
 @-moz-document url-prefix("https://clublog.org/last10") {
-
-    x* {
-        font-family: "Kode Mono", monospace !important;
-        font-optical-sizing: auto !important;
-        font-weight: 700 !important;
-        font-style: normal !important;
-    }
 
     html,
     body {
