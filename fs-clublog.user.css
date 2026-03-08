@@ -1,12 +1,11 @@
 /* ==UserStyle==
 @name           Clublog
 @namespace      github.com/JA1UXV
-@version        1.1.12
+@version        1.1.13
 @description    Clublog Custom
 @author         JA1UXV
 ==/UserStyle== */
-
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Righteous&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Kode+Mono:wght@400..700&family=Righteous&display=swap');
 
 /* =========================
     Personal Livestream 
@@ -100,7 +99,7 @@ url("https://clublog.org/livestream/JO2KQJ") {
         content: url("https://jo2kqj.jpn.org/material/clublog-transparent_ver1.png") !important;
     }
 
-    table tr:first-child td:nth-child(n + 2) {
+    table tr:first-child td:nth-child(n+2) {
         background-color: #e21b1b !important;
         color: ivory !important;
         font-family: "Audiowide", sans-serif !important;
@@ -123,14 +122,14 @@ url("https://clublog.org/livestream/JO2KQJ") {
         font-style: normal !important;
     }
 
-    table tr:nth-child(n + 4) {
+    table tr:nth-child(n+4) {
         background-color: transparent !important;
         color: white !important;
         opacity: 0.8;
-        font-family: "Victor Mono", monospace;
-        font-optical-sizing: auto;
-        font-weight: 700;
-        font-style: normal;
+        font-family: "Kode Mono", monospace !important;
+        font-optical-sizing: auto !important;
+        font-weight: 700 !important;
+        font-style: normal !important;
     }
 
     @media (max-width: 1920px) {
