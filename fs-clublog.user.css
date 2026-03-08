@@ -1,11 +1,12 @@
 /* ==UserStyle==
 @name           Clublog
 @namespace      github.com/JA1UXV
-@version        1.1.10
+@version        1.1.11
 @description    Clublog Custom
 @author         JA1UXV
 ==/UserStyle== */
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Kode+Mono:wght@400..700&family=Libertinus+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Libertinus+Mono&display=swap');
 
 /* =========================
     Personal Livestream 
@@ -16,8 +17,8 @@ url("https://clublog.org/livestream/JO2KQJ") {
     * {
         color: black !important;
         font-family: "Libertinus Mono", monospace !important;
-        font-weight: 400;
-        font-style: normal;
+        font-weight: 400 !important;
+        font-style: normal !important;
     }
 
     html,
@@ -126,9 +127,8 @@ url("https://clublog.org/livestream/JO2KQJ") {
         background-color: transparent !important;
         color: white !important;
         opacity: 0.8;
-        font-family: "Kode Mono", monospace !important;
-        font-optical-sizing: auto !important;
-        font-weight: 700 !important;
+        font-family: "Libertinus Mono", monospace !important;
+        font-weight: 400 !important;
         font-style: normal !important;
     }
 
