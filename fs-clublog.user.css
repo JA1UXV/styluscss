@@ -1,11 +1,10 @@
 /* ==UserStyle==
 @name           Clublog
 @namespace      github.com/JA1UXV
-@version        1.1.14
+@version        1.1.15
 @description    Clublog Custom
 @author         JA1UXV
 ==/UserStyle== */
-
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Libertinus+Mono&family=Nova+Mono&family=Righteous&display=swap');
 
 /* =========================
@@ -36,15 +35,7 @@ url("https://clublog.org/livestream/JO2KQJ") {
     }
 
     img[src*="https://cdn.clublog.org/images/clublog-black.png"] {
-        content: url("https://jo2kqj.jpn.org/material/clublog-transparent_ver1.png") !important;
-    }
-
-    .contentTable {
-        background: radial-gradient(#e21b1b, gold) !important;
-        display: flex !important;
-        justify-content: center !important;
-        align-items: center !important;
-        overflow: hidden;
+        content: url("https://jo2kqj.jpn.org/material/clublog-transparent_ver2.png") !important;
     }
 
     table th {
@@ -61,12 +52,20 @@ url("https://clublog.org/livestream/JO2KQJ") {
             transform: scale(1.77) !important;
             transform-origin: center center !important;
         }
+
+        .contentTable {
+            background: radial-gradient(circle at 70% 50%, gold, #e21b1b, white) !important;
+        }
     }
 
     @media (max-width: 1680px) {
         body {
             transform: scale(1.53, 1.70) !important;
             transform-origin: center center !important;
+        }
+
+        .contentTable {
+            background: radial-gradient(circle at 70% 50%, gold, #e21b1b, white) !important;
         }
     }
 }
