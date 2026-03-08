@@ -1,11 +1,11 @@
 /* ==UserStyle==
 @name           QRZ.COM
 @namespace      github.com/JA1UXV
-@version        1.1.4
+@version        1.1.5
 @description    QRZ.COM Custom
 @author         JA1UXV
 ==/UserStyle== */
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Libertinus+Mono&family=Righteous&display=swap');
 
 @-moz-document domain("qrz.com") {
 
@@ -28,7 +28,7 @@
         font-family: "Audiowide", sans-serif !important;
         font-weight: 400 !important;
         font-style: normal !important;
-        color: #E0FFFF !important;
+        color: #FFE4E1 !important;
         text-decoration: none !important;
     }
 
@@ -36,7 +36,7 @@
         font-family: "Righteous", sans-serif !important;
         font-weight: 400 !important;
         font-style: normal !important;
-        color: #98FB98 !important;
+        color: #FFDAB9 !important;
         text-decoration: none !important;
     }
 
@@ -45,18 +45,18 @@
     }
 
     table td {
-        font-family: "Courier Prime", monospace !important;
-        font-weight: 700 !important;
-        font-style: italic !important;
+        font-family: "Libertinus Mono", monospace !important;
+        font-weight: 400 !important;
+        font-style: normal !important;
         color: ivory !important;
         text-decoration: none !important;
-    }
+}
 
     p {
         font-family: "Audiowide", sans-serif !important;
         font-weight: 400 !important;
         font-style: normal !important;
-        color: #E0FFFF !important;
+        color: #FFE4E1 !important;
         text-decoration: none !important;
     }
 
