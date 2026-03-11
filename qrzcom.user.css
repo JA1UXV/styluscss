@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           QRZ.COM
 @namespace      github.com/JA1UXV
-@version        1.2.2
+@version        1.2.3
 @description    QRZ.COM Custom
 @author         JA1UXV
 ==/UserStyle== */
@@ -17,7 +17,7 @@
     }
 
     body {
-        background: conic-gradient(from 0deg, #eef67d 0.000deg, #eef67d 10.588deg, #f8eb7a calc(10.588deg + 0.1deg), #f8eb7a 21.176deg, #fedc74 calc(21.176deg + 0.1deg), #fedc74 31.765deg, #ffca6b calc(31.765deg + 0.1deg), #ffca6b 42.353deg, #fcb663 calc(42.353deg + 0.1deg), #fcb663 52.941deg, #f4a05e calc(52.941deg + 0.1deg), #f4a05e 63.529deg, #e8885e calc(63.529deg + 0.1deg), #e8885e 74.118deg, #d97163 calc(74.118deg + 0.1deg), #d97163 84.706deg, #c7596b calc(84.706deg + 0.1deg), #c7596b 95.294deg, #b24474 calc(95.294deg + 0.1deg), #b24474 105.882deg, #9c307a calc(105.882deg + 0.1deg), #9c307a 116.471deg, #841f7d calc(116.471deg + 0.1deg), #841f7d 127.059deg, #6c117a calc(127.059deg + 0.1deg), #6c117a 137.647deg, #550774 calc(137.647deg + 0.1deg), #550774 148.235deg, #40026b calc(148.235deg + 0.1deg), #40026b 158.824deg, #2c0063 calc(158.824deg + 0.1deg), #2c0063 169.412deg, #1c035e calc(169.412deg + 0.1deg), #1c035e 180.000deg, #0f0b5e calc(180.000deg + 0.1deg), #0f0b5e 190.588deg, #061663 calc(190.588deg + 0.1deg), #061663 201.176deg, #01256b calc(201.176deg + 0.1deg), #01256b 211.765deg, #003773 calc(211.765deg + 0.1deg), #003773 222.353deg, #044c7a calc(222.353deg + 0.1deg), #044c7a 232.941deg, #0c637d calc(232.941deg + 0.1deg), #0c637d 243.529deg, #197a7a calc(243.529deg + 0.1deg), #197a7a 254.118deg, #289274 calc(254.118deg + 0.1deg), #289274 264.706deg, #3ba96b calc(264.706deg + 0.1deg), #3ba96b 275.294deg, #50be63 calc(275.294deg + 0.1deg), #50be63 285.882deg, #67d25e calc(285.882deg + 0.1deg), #67d25e 296.471deg, #7ee25e calc(296.471deg + 0.1deg), #7ee25e 307.059deg, #96f063 calc(307.059deg + 0.1deg), #96f063 317.647deg, #adf96b calc(317.647deg + 0.1deg), #adf96b 328.235deg, #c2fe73 calc(328.235deg + 0.1deg), #c2fe73 338.824deg, #d5ff7a calc(338.824deg + 0.1deg), #d5ff7a 349.412deg, #e5fb7d calc(349.412deg + 0.1deg) 360.000deg) !important;
+        background: linear-gradient(135deg, #d2ee33 0.000%, #ffd605 20.000%, #ff9e00 40.000%, #e5581c 60.000%, #a41b61 80.000%, #5e00ca 100.000%) !important;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
@@ -34,7 +34,7 @@
     }
 
     table th {
-        color: #FFDAB9 !important;
+        color: maroon !important;
         text-decoration: none !important;
         font-family: "Righteous", sans-serif !important;
         font-weight: 400 !important;
@@ -46,7 +46,7 @@
     }
 
     table td {
-        color: ivory !important;
+        color: white !important;
         text-decoration: none !important;
         font-family: "Courier Prime", monospace !important;
         font-weight: 700 !important;
@@ -54,7 +54,7 @@
     }
 
     p {
-        color: #FFE4E1 !important;
+        color: lavender !important;
         text-decoration: none !important;
         font-family: "Audiowide", sans-serif !important;
         font-weight: 400 !important;
@@ -62,7 +62,7 @@
     }
 
     a {
-        color: azure !important;
+        color: ivory !important;
         text-decoration: none !important;
     }
 
