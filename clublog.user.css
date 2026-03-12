@@ -1,15 +1,89 @@
 /* ==UserStyle==
 @name           Clublog
 @namespace      github.com/JA1UXV
-@version        1.2.5
+@version        1.3.1
 @description    Clublog Custom
 @author         JA1UXV
 ==/UserStyle== */
-
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Libertinus+Mono&family=Nova+Mono&family=Righteous&display=swap');
 
 /* =========================
-    Personal Livestream 
+   Clublog Widget [Last 15 QSO]
+========================= */
+@-moz-document url-prefix("https://clublog.org/last10") {
+
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+    }
+
+    body {
+        background: linear-gradient(315deg, #abccff 0.000%, #bccdff 16.667%, #d8ccff 33.333%, #f4c9f7 50.000%, #ffc5f0 66.667%, #ffc0ed 83.333%, #ffbaed 100.000%) !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        overflow: hidden;
+    }
+
+    table,
+    th,
+    td {
+        background-color: transparent !important;
+    }
+
+    img[src*="https://cdn.clublog.org/images/clublog-2x.png"] {
+        content: url("https://jo2kqj.jpn.org/material/clublog-transparent_ver1.png") !important;
+    }
+
+    table tr:first-child td:nth-child(n + 2) {
+        background-color: #e21b1b !important;
+        color: ivory !important;
+        font-family: "Audiowide", sans-serif !important;
+        font-weight: 400 !important;
+        font-style: normal !important;
+    }
+
+    table tr:first-child td:first-child,
+    table tr:nth-child(2) {
+        background-color: ivory !important;
+    }
+
+    table tr:nth-child(3) {
+        background-color: transparent !important;
+        color: #e21b1b !important;
+        font-family: "Righteous", sans-serif !important;
+        font-weight: 400 !important;
+        font-style: normal !important;
+    }
+
+    table tr:nth-child(n + 4) {
+        background-color: transparent !important;
+        color: navy !important;
+        font-family: "Nova Mono", monospace !important;
+        font-weight: 700 !important;
+        font-style: normal !important;
+    }
+
+    @media (max-width: 1920px) {
+        body {
+            transform: scale(2.64) !important;
+            transform-origin: center center !important;
+            margin: 0 !important;
+        }
+    }
+
+    @media (max-width: 1680px) {
+        body {
+            transform: scale(2.55) !important;
+            transform-origin: center center !important;
+            margin: 0 !important;
+        }
+    }
+}
+
+/* =========================
+    clublog Livestream 
 ========================= */
 @-moz-document url("https://clublog.org/livestream/JA1UXV"),
 url("https://clublog.org/livestream/JO2KQJ") {
@@ -63,81 +137,6 @@ url("https://clublog.org/livestream/JO2KQJ") {
         body {
             transform: scale(1.53) !important;
             transform-origin: center center !important;
-        }
-    }
-}
-
-/* =========================
-   Personal [Last 15 QSO]
-========================= */
-@-moz-document url-prefix("https://clublog.org/last10") {
-
-    html,
-    body {
-        height: 100%;
-        margin: 0;
-    }
-
-    body {
-        background: conic-gradient(from 180deg, #000021 0.000deg, #00000b 10.909deg, #000000 21.818deg, #000000 32.727deg, #000000 43.636deg, #000000 54.545deg, #000000 65.455deg, #180000 76.364deg, #320000 87.273deg, #4b0000 98.182deg, #630000 109.091deg, #7a0100 120.000deg, #8d1700 130.909deg, #9d2e02 141.818deg, #a94518 152.727deg, #af5b2e 163.636deg, #b07045 174.545deg, #ac825c 185.455deg, #a39270 196.364deg, #969e83 207.273deg, #84a692 218.182deg, #6faa9e 229.091deg, #57aaa5 240.000deg, #3ea5a9 250.909deg, #259ba7 261.818deg, #0c8ea2 272.727deg, #007e98 283.636deg, #006b8a 294.545deg, #005579 305.455deg, #003f65 316.364deg, #002850 327.273deg, #001139 338.182deg, #000022 349.091deg, #00000c 360.000deg) !important;
-        display: flex !important;
-        justify-content: center !important;
-        align-items: center !important;
-        overflow: hidden;
-    }
-
-    table,
-    th,
-    td {
-        background-color: transparent !important;
-    }
-
-    img[src*="https://cdn.clublog.org/images/clublog-2x.png"] {
-        content: url("https://jo2kqj.jpn.org/material/clublog-transparent_ver1.png") !important;
-    }
-
-    table tr:first-child td:nth-child(n + 2) {
-        background-color: #e21b1b !important;
-        color: ivory !important;
-        font-family: "Audiowide", sans-serif !important;
-        font-weight: 400 !important;
-        font-style: normal !important;
-    }
-
-    table tr:first-child td:first-child,
-    table tr:nth-child(2) {
-        background-color: ivory !important;
-    }
-
-    table tr:nth-child(3) {
-        background-color: transparent !important;
-        color: tomato !important;
-        font-family: "Righteous", sans-serif !important;
-        font-weight: 400 !important;
-        font-style: normal !important;
-    }
-
-    table tr:nth-child(n + 4) {
-        background-color: transparent !important;
-        color: ivory !important;
-        font-family: "Nova Mono", monospace !important;
-        font-weight: 700 !important;
-        font-style: normal !important;
-    }
-
-    @media (max-width: 1920px) {
-        body {
-            transform: scale(2.64) !important;
-            transform-origin: center center !important;
-            margin: 0 !important;
-        }
-    }
-
-    @media (max-width: 1680px) {
-        body {
-            transform: scale(2.55) !important;
-            transform-origin: center center !important;
-            margin: 0 !important;
         }
     }
 }
