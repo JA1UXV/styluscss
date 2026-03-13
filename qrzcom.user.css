@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           QRZ.COM
 @namespace      github.com/JA1UXV
-@version        1.2.4
+@version        1.2.5
 @description    QRZ.COM Custom
 @author         JA1UXV
 ==/UserStyle== */
@@ -17,7 +17,6 @@
     }
 
     body {
-        background: linear-gradient(180deg, #ffffd1 0.000%, #ffae90 25.000%, #fb2654 50.000%, #be0028 75.000%, #801214 100.000%) !important;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
@@ -33,7 +32,7 @@
         font-style: normal !important;
     }
 
-    .ttl a { 
+    .ttl a {
         color: navy !important;
         text-decoration: none !important;
     }
@@ -58,13 +57,17 @@
         font-style: italic !important;
     }
 
-    td a { 
+    td a {
         color: papayawhip !important;
         text-decoration: none !important;
     }
 
+    table tr:nth-child(n + 2):nth-child(-n + 8) td:nth-child(n + 8):nth-child(-n + 9) {
+        color: black !important;
+    }
+
     p {
-        color: plum !important;
+        color: beige!important;
         text-decoration: none !important;
         font-family: "Audiowide", sans-serif !important;
         font-weight: 400 !important;
@@ -72,23 +75,25 @@
     }
 
     p a {
-        color: tan !important;
+        color: lavenderblush !important;
         text-decoration: none !important;
     }
 
     @media (min-width: 1920px) {
         body {
-            transform: scale(2.10);
-            transform-origin: center center;
-            margin: 0;
+            background: conic-gradient(from 180deg at 48.5% 50%, #000033 0.000deg, #000033 10.588deg, #00004f calc(10.588deg + 0.1deg), #00004f 21.176deg, #25006f calc(21.176deg + 0.1deg), #25006f 31.765deg, #4b008c calc(31.765deg + 0.1deg), #4b008c 42.353deg, #72009d calc(42.353deg + 0.1deg), #72009d 52.941deg, #97009d calc(52.941deg + 0.1deg), #97009d 63.529deg, #b9008d calc(63.529deg + 0.1deg), #b9008d 74.118deg, #d90d71 calc(74.118deg + 0.1deg), #d90d71 84.706deg, #f63250 calc(84.706deg + 0.1deg), #f63250 95.294deg, #ff5634 calc(95.294deg + 0.1deg), #ff5634 105.882deg, #ff7823 calc(105.882deg + 0.1deg), #ff7823 116.471deg, #ff9823 calc(116.471deg + 0.1deg), #ff9823 127.059deg, #ffb534 calc(127.059deg + 0.1deg), #ffb534 137.647deg, #ffce50 calc(137.647deg + 0.1deg), #ffce50 148.235deg, #ffe370 calc(148.235deg + 0.1deg), #ffe370 158.824deg, #fff48d calc(158.824deg + 0.1deg), #fff48d 169.412deg, #ffff9d calc(169.412deg + 0.1deg), #ffff9d 180.000deg, #ffff9d calc(180.000deg + 0.1deg), #ffff9d 190.588deg, #ecff8c calc(190.588deg + 0.1deg), #ecff8c 201.176deg, #ceff70 calc(201.176deg + 0.1deg), #ceff70 211.765deg, #adfe4f calc(211.765deg + 0.1deg), #adfe4f 222.353deg, #89f133 calc(222.353deg + 0.1deg), #89f133 232.941deg, #64df23 calc(232.941deg + 0.1deg), #64df23 243.529deg, #3dc824 calc(243.529deg + 0.1deg), #3dc824 254.118deg, #17ae34 calc(254.118deg + 0.1deg), #17ae34 264.706deg, #009151 calc(264.706deg + 0.1deg), #009151 275.294deg, #007071 calc(275.294deg + 0.1deg), #007071 285.882deg, #004d8d calc(285.882deg + 0.1deg), #004d8d 296.471deg, #00299d calc(296.471deg + 0.1deg), #00299d 307.059deg, #00049d calc(307.059deg + 0.1deg), #00049d 317.647deg, #00008c calc(317.647deg + 0.1deg), #00008c 328.235deg, #00006f calc(328.235deg + 0.1deg), #00006f 338.824deg, #00004e calc(338.824deg + 0.1deg), #00004e 349.412deg, #000032 calc(349.412deg + 0.1deg) 360.000deg) !important;
+            transform: scale(2.10) !important;
+            transform-origin: center center !important;
+            margin: 0 !important;
         }
     }
 
     @media (max-width: 1680px) {
         body {
-            transform: scale(2.05);
-            transform-origin: center center;
-            margin: 0;
+            background: conic-gradient(from 180deg at 50% 50%, #000033 0.000deg, #000033 10.588deg, #00004f calc(10.588deg + 0.1deg), #00004f 21.176deg, #25006f calc(21.176deg + 0.1deg), #25006f 31.765deg, #4b008c calc(31.765deg + 0.1deg), #4b008c 42.353deg, #72009d calc(42.353deg + 0.1deg), #72009d 52.941deg, #97009d calc(52.941deg + 0.1deg), #97009d 63.529deg, #b9008d calc(63.529deg + 0.1deg), #b9008d 74.118deg, #d90d71 calc(74.118deg + 0.1deg), #d90d71 84.706deg, #f63250 calc(84.706deg + 0.1deg), #f63250 95.294deg, #ff5634 calc(95.294deg + 0.1deg), #ff5634 105.882deg, #ff7823 calc(105.882deg + 0.1deg), #ff7823 116.471deg, #ff9823 calc(116.471deg + 0.1deg), #ff9823 127.059deg, #ffb534 calc(127.059deg + 0.1deg), #ffb534 137.647deg, #ffce50 calc(137.647deg + 0.1deg), #ffce50 148.235deg, #ffe370 calc(148.235deg + 0.1deg), #ffe370 158.824deg, #fff48d calc(158.824deg + 0.1deg), #fff48d 169.412deg, #ffff9d calc(169.412deg + 0.1deg), #ffff9d 180.000deg, #ffff9d calc(180.000deg + 0.1deg), #ffff9d 190.588deg, #ecff8c calc(190.588deg + 0.1deg), #ecff8c 201.176deg, #ceff70 calc(201.176deg + 0.1deg), #ceff70 211.765deg, #adfe4f calc(211.765deg + 0.1deg), #adfe4f 222.353deg, #89f133 calc(222.353deg + 0.1deg), #89f133 232.941deg, #64df23 calc(232.941deg + 0.1deg), #64df23 243.529deg, #3dc824 calc(243.529deg + 0.1deg), #3dc824 254.118deg, #17ae34 calc(254.118deg + 0.1deg), #17ae34 264.706deg, #009151 calc(264.706deg + 0.1deg), #009151 275.294deg, #007071 calc(275.294deg + 0.1deg), #007071 285.882deg, #004d8d calc(285.882deg + 0.1deg), #004d8d 296.471deg, #00299d calc(296.471deg + 0.1deg), #00299d 307.059deg, #00049d calc(307.059deg + 0.1deg), #00049d 317.647deg, #00008c calc(317.647deg + 0.1deg), #00008c 328.235deg, #00006f calc(328.235deg + 0.1deg), #00006f 338.824deg, #00004e calc(338.824deg + 0.1deg), #00004e 349.412deg, #000032 calc(349.412deg + 0.1deg) 360.000deg) !important;
+            transform: scale(2.05) !important;
+            transform-origin: center center !important;
+            margin: 0 !important;
         }
     }
 }
