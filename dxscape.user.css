@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dxscape
 @namespace      github.com/JA1UXV
-@version        1.2.2
+@version        1.2.3
 @description    DXSCAPE Custom
 @author         JA1UXV
 ==/UserStyle== */
@@ -23,7 +23,6 @@
     }
 
     body {
-        background: linear-gradient(90deg, #cbffc4 0.000%, #cbffc4 20.000%, #fafade calc(20.000% + 1px), #fafade 40.000%, #ffd7f4 calc(40.000% + 1px), #ffd7f4 60.000%, #fca8fe calc(60.000% + 1px), #fca8fe 80.000%, #cc7ff5 calc(80.000% + 1px) 100.000%) !important;
         color: black !important;
         padding-left: 5px !important;
         line-height: 1.2 !important;
@@ -33,5 +32,17 @@
     a {
         color: navy !important;
         text-decoration: none !important;
+    }
+
+    @media (max-width: 1920px) {
+        body {
+            background: linear-gradient(90deg, yellow 0.000%, white 27.000%, lightskyblue calc(20.000% + 1px), white 42.000%, lightsalmon calc(40.000% + 1px), white 60.000%, aquamarine calc(60.000% + 1px), white 100.000%) !important;
+        }
+    }
+
+    @media (max-width: 1680px) {
+        body {
+            xbackground: linear-gradient(90deg, yellow 0.000%, white 27.000%, lightskyblue calc(20.000% + 1px), white 42.000%, lightsalmon calc(40.000% + 1px), white 60.000%, aquamarine calc(60.000% + 1px), white 100.000%) !important;
+        }
     }
 }
