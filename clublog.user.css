@@ -1,10 +1,11 @@
 /* ==UserStyle==
 @name           Clublog
 @namespace      github.com/JA1UXV
-@version        1.3.1
+@version        1.3.2
 @description    Clublog Custom
 @author         JA1UXV
 ==/UserStyle== */
+
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Libertinus+Mono&family=Nova+Mono&family=Righteous&display=swap');
 
 /* =========================
@@ -19,7 +20,7 @@
     }
 
     body {
-        background: linear-gradient(315deg, #abccff 0.000%, #bccdff 16.667%, #d8ccff 33.333%, #f4c9f7 50.000%, #ffc5f0 66.667%, #ffc0ed 83.333%, #ffbaed 100.000%) !important;
+        background: conic-gradient(from 180deg at 51.1% 50%, #379982 0.000deg, #519060 40.000deg, #6c7746 80.000deg, #885337 120.000deg, #a42833 160.000deg, #c1003b 200.000deg, #dc004e 240.000deg, #f6006b 280.000deg, #ff0090 320.000deg, #ff00b9 360.000deg) !important;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
@@ -51,7 +52,7 @@
 
     table tr:nth-child(3) {
         background-color: transparent !important;
-        color: #e21b1b !important;
+        color: khaki !important;
         font-family: "Righteous", sans-serif !important;
         font-weight: 400 !important;
         font-style: normal !important;
@@ -59,7 +60,7 @@
 
     table tr:nth-child(n + 4) {
         background-color: transparent !important;
-        color: navy !important;
+        color: white !important;
         font-family: "Nova Mono", monospace !important;
         font-weight: 700 !important;
         font-style: normal !important;
