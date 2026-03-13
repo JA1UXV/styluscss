@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dxscape
 @namespace      github.com/JA1UXV
-@version        1.2.5
+@version        1.2.6
 @description    DXSCAPE Custom
 @author         JA1UXV
 ==/UserStyle== */
@@ -41,7 +41,7 @@
         }
     }
 
-    @media (max-width: 830px) {
+    @media (max-width: 837px) {
         body {
             background: linear-gradient(90deg, yellow 0.000%, white 30.500%, lightskyblue calc(20.000% + 1px), white 48.500%, lightsalmon calc(40.000% + 1px), white 69.000%, aquamarine calc(60.000% + 1px), white 100.000%) !important;
             transform: scale(2.00) !important;
