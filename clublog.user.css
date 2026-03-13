@@ -64,7 +64,7 @@
         font-style: normal !important;
     }
 
-    @media (min-width: 1920px) {
+    @media (min-width: 1900px) {
         body {
             background: conic-gradient(from 180deg at 51.1% 50%, #379982 0.000deg, #519060 40.000deg, #6c7746 80.000deg, #885337 120.000deg, #a42833 160.000deg, #c1003b 200.000deg, #dc004e 240.000deg, #f6006b 280.000deg, #ff0090 320.000deg, #ff00b9 360.000deg) !important;
             transform: scale(2.64) !important;
@@ -73,7 +73,7 @@
         }
     }
 
-    @media (max-width: 1680px) {
+    @media (max-width: 1700px) {
         body {
             background: conic-gradient(from 180deg at 51.3% 50%, #379982 0.000deg, #519060 40.000deg, #6c7746 80.000deg, #885337 120.000deg, #a42833 160.000deg, #c1003b 200.000deg, #dc004e 240.000deg, #f6006b 280.000deg, #ff0090 320.000deg, #ff00b9 360.000deg) !important;
             transform: scale(2.55) !important;
@@ -127,14 +127,14 @@ url("https://clublog.org/livestream/JO2KQJ") {
         background-color: transparent !important;
     }
 
-    @media (min-width: 1920px) {
+    @media (min-width: 1900px) {
         body {
             transform: scale(1.77) !important;
             transform-origin: center center !important;
         }
     }
 
-    @media (max-width: 1680px) {
+    @media (max-width: 1700px) {
         body {
             transform: scale(1.53) !important;
             transform-origin: center center !important;
