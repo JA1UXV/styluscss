@@ -64,7 +64,7 @@
         font-style: normal !important;
     }
 
-    @media (min-width: 1900px) {
+    @media (min-width: 1920px) {
         body {
             background: conic-gradient(from 180deg at 51.1% 50%, #379982 0.000deg, #519060 40.000deg, #6c7746 80.000deg, #885337 120.000deg, #a42833 160.000deg, #c1003b 200.000deg, #dc004e 240.000deg, #f6006b 280.000deg, #ff0090 320.000deg, #ff00b9 360.000deg) !important;
             transform: scale(2.64) !important;
