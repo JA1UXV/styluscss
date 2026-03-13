@@ -1,11 +1,10 @@
 /* ==UserStyle==
 @name           Dxscape
 @namespace      github.com/JA1UXV
-@version        1.2.4
+@version        1.2.5
 @description    DXSCAPE Custom
 @author         JA1UXV
 ==/UserStyle== */
-
 @import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap');
 
 @-moz-document domain("dxscape.com") {
@@ -34,15 +33,19 @@
         text-decoration: none !important;
     }
 
-    @media (max-width: 1920px) {
+    @media (min-width: 957px) {
         body {
             background: linear-gradient(90deg, yellow 0.000%, white 27.000%, lightskyblue calc(20.000% + 1px), white 42.000%, lightsalmon calc(40.000% + 1px), white 60.000%, aquamarine calc(60.000% + 1px), white 100.000%) !important;
+            transform: scale(2.00) !important;
+            transform-origin: left top !important;
         }
     }
 
-    @media (max-width: 1680px) {
+    @media (max-width: 830px) {
         body {
             background: linear-gradient(90deg, yellow 0.000%, white 30.500%, lightskyblue calc(20.000% + 1px), white 48.500%, lightsalmon calc(40.000% + 1px), white 69.000%, aquamarine calc(60.000% + 1px), white 100.000%) !important;
+            transform: scale(2.00) !important;
+            transform-origin: left top !important;
         }
     }
 }
