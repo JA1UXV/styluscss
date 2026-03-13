@@ -1,11 +1,10 @@
 /* ==UserStyle==
 @name           Clublog
 @namespace      github.com/JA1UXV
-@version        1.3.2
+@version        1.3.3
 @description    Clublog Custom
 @author         JA1UXV
 ==/UserStyle== */
-
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Libertinus+Mono&family=Nova+Mono&family=Righteous&display=swap');
 
 /* =========================
@@ -20,7 +19,6 @@
     }
 
     body {
-        background: conic-gradient(from 180deg at 51.1% 50%, #379982 0.000deg, #519060 40.000deg, #6c7746 80.000deg, #885337 120.000deg, #a42833 160.000deg, #c1003b 200.000deg, #dc004e 240.000deg, #f6006b 280.000deg, #ff0090 320.000deg, #ff00b9 360.000deg) !important;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
@@ -68,6 +66,7 @@
 
     @media (max-width: 1920px) {
         body {
+            background: conic-gradient(from 180deg at 51.1% 50%, #379982 0.000deg, #519060 40.000deg, #6c7746 80.000deg, #885337 120.000deg, #a42833 160.000deg, #c1003b 200.000deg, #dc004e 240.000deg, #f6006b 280.000deg, #ff0090 320.000deg, #ff00b9 360.000deg) !important;
             transform: scale(2.64) !important;
             transform-origin: center center !important;
             margin: 0 !important;
@@ -76,6 +75,7 @@
 
     @media (max-width: 1680px) {
         body {
+            background: conic-gradient(from 180deg at 51.3% 50%, #379982 0.000deg, #519060 40.000deg, #6c7746 80.000deg, #885337 120.000deg, #a42833 160.000deg, #c1003b 200.000deg, #dc004e 240.000deg, #f6006b 280.000deg, #ff0090 320.000deg, #ff00b9 360.000deg) !important;
             transform: scale(2.55) !important;
             transform-origin: center center !important;
             margin: 0 !important;
