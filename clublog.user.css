@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Clublog
 @namespace      github.com/JA1UXV
-@version        1.3.6
+@version        1.3.7
 @description    Clublog Custom
 @author         JA1UXV
 ==/UserStyle== */
@@ -51,7 +51,7 @@
 
     table tr:nth-child(3) {
         background-color: transparent !important;
-        color: khaki !important;
+        color: ivory !important;
         font-family: "Righteous", sans-serif !important;
         font-weight: 400 !important;
         font-style: normal !important;
