@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Clublog
 @namespace      github.com/JA1UXV
-@version        1.3.5
+@version        1.3.6
 @description    Clublog Custom
 @author         JA1UXV
 ==/UserStyle== */
@@ -65,7 +65,7 @@
         font-style: normal !important;
     }
 
-    @media (min-width: 1900px) {
+    @media (min-width: 1920px) {
         body {
             background: conic-gradient(from 180deg at 51.05% 50%, #c99b00 0.000deg, #c99b00 10.588deg, #c89300 calc(10.588deg + 0.1deg), #c89300 21.176deg, #c78a00 calc(21.176deg + 0.1deg), #c78a00 31.765deg, #c58100 calc(31.765deg + 0.1deg), #c58100 42.353deg, #c37700 calc(42.353deg + 0.1deg), #c37700 52.941deg, #c16d00 calc(52.941deg + 0.1deg), #c16d00 63.529deg, #be6300 calc(63.529deg + 0.1deg), #be6300 74.118deg, #bb5800 calc(74.118deg + 0.1deg), #bb5800 84.706deg, #b84e00 calc(84.706deg + 0.1deg), #b84e00 95.294deg, #b54200 calc(95.294deg + 0.1deg), #b54200 105.882deg, #b13700 calc(105.882deg + 0.1deg), #b13700 116.471deg, #ad2b00 calc(116.471deg + 0.1deg), #ad2b00 127.059deg, #a91f00 calc(127.059deg + 0.1deg), #a91f00 137.647deg, #a41300 calc(137.647deg + 0.1deg), #a41300 148.235deg, #9f0700 calc(148.235deg + 0.1deg), #9f0700 158.824deg, #9a0000 calc(158.824deg + 0.1deg), #9a0000 169.412deg, #940000 calc(169.412deg + 0.1deg), #940000 180.000deg, #8f0000 calc(180.000deg + 0.1deg), #8f0000 190.588deg, #890000 calc(190.588deg + 0.1deg), #890000 201.176deg, #820000 calc(201.176deg + 0.1deg), #820000 211.765deg, #7c0000 calc(211.765deg + 0.1deg), #7c0000 222.353deg, #750000 calc(222.353deg + 0.1deg), #750000 232.941deg, #6e0000 calc(232.941deg + 0.1deg), #6e0000 243.529deg, #670000 calc(243.529deg + 0.1deg), #670000 254.118deg, #5f0000 calc(254.118deg + 0.1deg), #5f0000 264.706deg, #580000 calc(264.706deg + 0.1deg), #580000 275.294deg, #500000 calc(275.294deg + 0.1deg), #500000 285.882deg, #480000 calc(285.882deg + 0.1deg), #480000 296.471deg, #400000 calc(296.471deg + 0.1deg), #400000 307.059deg, #370000 calc(307.059deg + 0.1deg), #370000 317.647deg, #2f0000 calc(317.647deg + 0.1deg), #2f0000 328.235deg, #260000 calc(328.235deg + 0.1deg), #260000 338.824deg, #1d0000 calc(338.824deg + 0.1deg), #1d0000 349.412deg, #140000 calc(349.412deg + 0.1deg) 360.000deg) !important;
             transform: scale(2.64) !important;
@@ -74,9 +74,9 @@
         }
     }
 
-    @media (max-width: 1700px) {
+    @media (max-width: 1680px) {
         body {
-            background: conic-gradient(from 180deg at 51.05% 50%, #c99b00 0.000deg, #c99b00 10.588deg, #c89300 calc(10.588deg + 0.1deg), #c89300 21.176deg, #c78a00 calc(21.176deg + 0.1deg), #c78a00 31.765deg, #c58100 calc(31.765deg + 0.1deg), #c58100 42.353deg, #c37700 calc(42.353deg + 0.1deg), #c37700 52.941deg, #c16d00 calc(52.941deg + 0.1deg), #c16d00 63.529deg, #be6300 calc(63.529deg + 0.1deg), #be6300 74.118deg, #bb5800 calc(74.118deg + 0.1deg), #bb5800 84.706deg, #b84e00 calc(84.706deg + 0.1deg), #b84e00 95.294deg, #b54200 calc(95.294deg + 0.1deg), #b54200 105.882deg, #b13700 calc(105.882deg + 0.1deg), #b13700 116.471deg, #ad2b00 calc(116.471deg + 0.1deg), #ad2b00 127.059deg, #a91f00 calc(127.059deg + 0.1deg), #a91f00 137.647deg, #a41300 calc(137.647deg + 0.1deg), #a41300 148.235deg, #9f0700 calc(148.235deg + 0.1deg), #9f0700 158.824deg, #9a0000 calc(158.824deg + 0.1deg), #9a0000 169.412deg, #940000 calc(169.412deg + 0.1deg), #940000 180.000deg, #8f0000 calc(180.000deg + 0.1deg), #8f0000 190.588deg, #890000 calc(190.588deg + 0.1deg), #890000 201.176deg, #820000 calc(201.176deg + 0.1deg), #820000 211.765deg, #7c0000 calc(211.765deg + 0.1deg), #7c0000 222.353deg, #750000 calc(222.353deg + 0.1deg), #750000 232.941deg, #6e0000 calc(232.941deg + 0.1deg), #6e0000 243.529deg, #670000 calc(243.529deg + 0.1deg), #670000 254.118deg, #5f0000 calc(254.118deg + 0.1deg), #5f0000 264.706deg, #580000 calc(264.706deg + 0.1deg), #580000 275.294deg, #500000 calc(275.294deg + 0.1deg), #500000 285.882deg, #480000 calc(285.882deg + 0.1deg), #480000 296.471deg, #400000 calc(296.471deg + 0.1deg), #400000 307.059deg, #370000 calc(307.059deg + 0.1deg), #370000 317.647deg, #2f0000 calc(317.647deg + 0.1deg), #2f0000 328.235deg, #260000 calc(328.235deg + 0.1deg), #260000 338.824deg, #1d0000 calc(338.824deg + 0.1deg), #1d0000 349.412deg, #140000 calc(349.412deg + 0.1deg) 360.000deg) !important;
+            background: conic-gradient(from 180deg at 51.16% 50%, #c99b00 0.000deg, #c99b00 10.588deg, #c89300 calc(10.588deg + 0.1deg), #c89300 21.176deg, #c78a00 calc(21.176deg + 0.1deg), #c78a00 31.765deg, #c58100 calc(31.765deg + 0.1deg), #c58100 42.353deg, #c37700 calc(42.353deg + 0.1deg), #c37700 52.941deg, #c16d00 calc(52.941deg + 0.1deg), #c16d00 63.529deg, #be6300 calc(63.529deg + 0.1deg), #be6300 74.118deg, #bb5800 calc(74.118deg + 0.1deg), #bb5800 84.706deg, #b84e00 calc(84.706deg + 0.1deg), #b84e00 95.294deg, #b54200 calc(95.294deg + 0.1deg), #b54200 105.882deg, #b13700 calc(105.882deg + 0.1deg), #b13700 116.471deg, #ad2b00 calc(116.471deg + 0.1deg), #ad2b00 127.059deg, #a91f00 calc(127.059deg + 0.1deg), #a91f00 137.647deg, #a41300 calc(137.647deg + 0.1deg), #a41300 148.235deg, #9f0700 calc(148.235deg + 0.1deg), #9f0700 158.824deg, #9a0000 calc(158.824deg + 0.1deg), #9a0000 169.412deg, #940000 calc(169.412deg + 0.1deg), #940000 180.000deg, #8f0000 calc(180.000deg + 0.1deg), #8f0000 190.588deg, #890000 calc(190.588deg + 0.1deg), #890000 201.176deg, #820000 calc(201.176deg + 0.1deg), #820000 211.765deg, #7c0000 calc(211.765deg + 0.1deg), #7c0000 222.353deg, #750000 calc(222.353deg + 0.1deg), #750000 232.941deg, #6e0000 calc(232.941deg + 0.1deg), #6e0000 243.529deg, #670000 calc(243.529deg + 0.1deg), #670000 254.118deg, #5f0000 calc(254.118deg + 0.1deg), #5f0000 264.706deg, #580000 calc(264.706deg + 0.1deg), #580000 275.294deg, #500000 calc(275.294deg + 0.1deg), #500000 285.882deg, #480000 calc(285.882deg + 0.1deg), #480000 296.471deg, #400000 calc(296.471deg + 0.1deg), #400000 307.059deg, #370000 calc(307.059deg + 0.1deg), #370000 317.647deg, #2f0000 calc(317.647deg + 0.1deg), #2f0000 328.235deg, #260000 calc(328.235deg + 0.1deg), #260000 338.824deg, #1d0000 calc(338.824deg + 0.1deg), #1d0000 349.412deg, #140000 calc(349.412deg + 0.1deg) 360.000deg) !important;
             transform: scale(2.55) !important;
             transform-origin: center center !important;
             margin: 0 !important;
@@ -128,14 +128,14 @@ url("https://clublog.org/livestream/JO2KQJ") {
         background-color: transparent !important;
     }
 
-    @media (min-width: 1900px) {
+    @media (min-width: 1920px) {
         body {
             transform: scale(1.77) !important;
             transform-origin: center center !important;
         }
     }
 
-    @media (max-width: 1700px) {
+    @media (max-width: 1680px) {
         body {
             transform: scale(1.53) !important;
             transform-origin: center center !important;
