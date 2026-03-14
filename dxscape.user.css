@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dxscape
 @namespace      github.com/JA1UXV
-@version        1.2.6
+@version        1.2.7
 @description    DXSCAPE Custom
 @author         JA1UXV
 ==/UserStyle== */
@@ -24,7 +24,6 @@
     body {
         color: black !important;
         padding-left: 5px !important;
-        line-height: 1.2 !important;
         overflow: hidden !important;
     }
 
@@ -36,6 +35,7 @@
     @media (min-width: 957px) {
         body {
             background: linear-gradient(90deg, yellow 0.000%, white 27.000%, lightskyblue calc(20.000% + 1px), white 42.000%, lightsalmon calc(40.000% + 1px), white 60.000%, aquamarine calc(60.000% + 1px), white 100.000%) !important;
+            line-height: 1.23 !important;
             transform: scale(2.00) !important;
             transform-origin: left top !important;
         }
@@ -44,6 +44,7 @@
     @media (max-width: 837px) {
         body {
             background: linear-gradient(90deg, yellow 0.000%, white 30.500%, lightskyblue calc(20.000% + 1px), white 48.500%, lightsalmon calc(40.000% + 1px), white 69.000%, aquamarine calc(60.000% + 1px), white 100.000%) !important;
+            line-height: 1.2 !important;
             transform: scale(2.00) !important;
             transform-origin: left top !important;
         }
