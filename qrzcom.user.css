@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           QRZ.COM
 @namespace      github.com/JA1UXV
-@version        1.2.7
+@version        1.2.8
 @description    QRZ.COM Custom
 @author         JA1UXV
 ==/UserStyle== */
@@ -59,7 +59,7 @@
     }
 
     p {
-        color: #00b4e6 !important;
+        color: lightcyan !important;
         text-decoration: none !important;
         font-family: "Audiowide", sans-serif !important;
         font-weight: 400 !important;
