@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           DXHeat
 @namespace      github.com/JA1UXV
-@version        1.2.2
+@version        1.2.3
 @description    DXHeat Design Change
 @author         JA1UXV
 ==/UserStyle== */
@@ -28,7 +28,7 @@
         overflow: hidden;
     }
 
-    @media (min-width: 1900px) {
+    @media (min-width: 1920px) {
         body {
             transform: scale(1.6);
             transform-origin: 936px top;
@@ -36,7 +36,7 @@
         }
     }
 
-    @media (max-width: 1700px) {
+    @media (max-width: 1680px) {
         body {
             transform: scale(1.41);
             transform-origin: 810px top;
