@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           QRZ.COM
 @namespace      github.com/JA1UXV
-@version        1.2.6
+@version        1.2.7
 @description    QRZ.COM Custom
 @author         JA1UXV
 ==/UserStyle== */
@@ -32,11 +32,6 @@
         font-style: normal !important;
     }
 
-    .ttl a {
-        color: navy !important;
-        text-decoration: none !important;
-    }
-
     table th {
         color: maroon !important;
         text-decoration: none !important;
@@ -50,33 +45,30 @@
     }
 
     table td {
-        color: ivory !important;
-        text-decoration: none !important;
-        font-family: "Courier Prime", monospace !important;
+         font-family: "Courier Prime", monospace !important;
         font-weight: 700 !important;
         font-style: italic !important;
     }
 
-    td a {
-        color: papayawhip !important;
-        text-decoration: none !important;
-    }
-
-    table tr:nth-child(n + 2):nth-child(-n + 8) td:nth-child(n + 8):nth-child(-n + 9) {
+    table tr:nth-child(n + 2):nth-child(-n + 8) {
         color: black !important;
     }
 
+    table tr:nth-child(n + 9):nth-child(-n + 16) {
+        color: white !important;
+    }
+
     p {
-        color: beige!important;
+        color: #00b4e6 !important;
         text-decoration: none !important;
         font-family: "Audiowide", sans-serif !important;
         font-weight: 400 !important;
         font-style: normal !important;
     }
 
-    p a {
-        color: lavenderblush !important;
+    a {
         text-decoration: none !important;
+        color: inherit !important;
     }
 
     @media (min-width: 1920px) {
