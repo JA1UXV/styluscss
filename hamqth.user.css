@@ -1,7 +1,7 @@
 /* ==UserStyle==
-@name           test
+@name           HamQTH
 @namespace      github.com/JA1UXV
-@version        1.2.3
+@version        1.2.4
 @description    HamQTH Custom
 @author         JA1UXV
 ==/UserStyle== */
@@ -16,7 +16,7 @@
     }
 
     body {
-        background: linear-gradient(135deg, #00312c 0.000%, #00312c 14.286%, #1e332e calc(14.286% + 1px), #1e332e 28.571%, #493231 calc(28.571% + 1px), #493231 42.857%, #772c33 calc(42.857% + 1px), #772c33 57.143%, #a22436 calc(57.143% + 1px), #a22436 71.429%, #c01a39 calc(71.429% + 1px), #c01a39 85.714%, #cc113c calc(85.714% + 1px) 100.000%) !important;
+        background: linear-gradient(45deg, #1c0218 0.000%, #1c0218 20.000%, #500013 calc(20.000% + 1px), #500013 40.000%, #7a0923 calc(40.000% + 1px), #7a0923 60.000%, #982648 calc(60.000% + 1px), #982648 80.000%, #a9537f calc(80.000% + 1px) 100.000%) !important;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
