@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Clublog
 @namespace      github.com/JA1UXV
-@version        1.3.9
+@version        1.3.10
 @description    Clublog Custom
 @author         JA1UXV
 ==/UserStyle== */
@@ -28,7 +28,7 @@
     }
 
     img[src*="https://cdn.clublog.org/images/clublog-2x.png"] {
-        content: url("https://jo2kqj.jpn.org/material/clublog-transparent_ver1.png") !important;
+        content: url("https://jo2kqj.jpn.org/stylus/clublog-transparent_ver1.png") !important;
     }
 
     table tr:first-child td:nth-child(n + 2) {
@@ -114,7 +114,7 @@ url("https://clublog.org/livestream/JO2KQJ") {
     }
 
     img[src*="https://cdn.clublog.org/images/clublog-black.png"] {
-        content: url("https://jo2kqj.jpn.org/material/clublog-transparent_ver2.png") !important;
+        content: url("https://jo2kqj.jpn.org/stylus/clublog-transparent_ver2.png") !important;
     }
 
     table th {
