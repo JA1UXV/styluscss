@@ -1,12 +1,12 @@
 /* ==UserStyle==
 @name           HRDLOG
 @namespace      github.com/JA1UXV
-@version        1.2.3
+@version        1.2.4
 @description    HRDLOG Custom
 @author         JA1UXV
 ==/UserStyle== */
 
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Righteous&display=swap');
 
 @-moz-document domain("hrdlog.net") {
 
@@ -42,9 +42,12 @@
         line-height: 1.5;
         letter-spacing: 0.15em;
         padding: 0px 6px;
-        font-family: "Syne Mono", monospace;
-        font-weight: 700;
-        font-style: normal;
+  font-family: "Doto", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "ROND" 0;
     }
 
     table tr:nth-child(odd) td:nth-child(-n + 4) {
