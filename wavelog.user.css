@@ -1,1 +1,89 @@
+/* ==UserStyle==
+@name           Wavelog
+@namespace      github.com/JA1UXV
+@version        1.0.1
+@description    Wavelog Custom
+@author         JA1UXV
+==/UserStyle== */
+
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+
+@-moz-document domain("wavelog.jo2kqj.com") {
+
+    html,
+    body {
+        margin: 0;
+    }
+
+    body {
+        background: navy;
+    }
+
+
+
+    .col-sm-offset-4,
+    .col-sm-2 {
+        font-family: "Audiowide", sans-serif !important;
+        font-weight: 400 !important;
+        font-style: normal !important;
+    }
+
+    .col-sm-11 {
+        font-size: 24px !important;
+        color: honeydew !important;
+        letter-spacing: 0.05em !important;
+        font-family: "Righteous", sans-serif !important;
+        font-weight: 400 !important;
+        font-style: normal !important;
+    }
+
+    table th {
+        font-size: 60px !important;
+        color: blue !important;
+  font-family: "Hachi Maru Pop", cursive !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+    }
+
+    table tr {
+        background-color: transparent !important;
+    }
+
+    tbody td {
+        font-size: 60px !important;
+        color: red !important;
+  font-family: "Hachi Maru Pop", cursive !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+    }
+
+    tbody tr:nth-child(odd) td {
+        color: ivory !important;
+    }
+
+    tbody tr:nth-child(even) td {
+        color: khaki !important;
+    }
+
+    a {
+        color: inherit !important;
+        text-decoration: none !important;
+    }
+
+    @media (min-width: 1920px) {
+        body {
+            transform: scale(1.01);
+            transform-origin: left top;
+            margin: 20px 0 0 60px;
+        }
+    }
+
+    @media (max-width: 1680px) {
+        body {
+            transform: scale(1.50);
+            transform-origin: 690px top;
+            margin: 0;
+        }
+    }
+}
 
