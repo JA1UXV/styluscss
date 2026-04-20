@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wavelog
 @namespace      github.com/JA1UXV
-@version        1.0.2
+@version        1.0.3
 @description    Wavelog Custom
 @author         JA1UXV
 ==/UserStyle== */
@@ -42,7 +42,7 @@
 
     @media (max-width: 1680px) {
         body {
-            margin: 6px 0 0 0;
+            margin: 15px 0 0 0;
         }
     }
 }
