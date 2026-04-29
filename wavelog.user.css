@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wavelog
 @namespace      github.com/JA1UXV
-@version        1.0.3
+@version        1.0.4
 @description    Wavelog Custom
 @author         JA1UXV
 ==/UserStyle== */
@@ -14,7 +14,8 @@
     }
 
     table th {
-        color: ivory !important;
+        /* color: #009fcf !important; */
+        color: #009fcf !important;
         font-family: "Hachi Maru Pop", cursive !important;
         font-weight: 700 !important;
         font-style: normal !important;
@@ -25,13 +26,13 @@
         font-weight: 400;
         font-style: normal;
     }
-    
-        tbody tr:nth-child(even) td {
-        color: #e86233 !important;
+
+    tbody tr:nth-child(even) td {
+        color: lightcoral !important;
     }
 
     tbody tr:nth-child(odd) td {
-        color: #009fcf !important;
+        color: palegreen !important;
     }
 
     @media (min-width: 1920px) {
