@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Clublog
 @namespace      github.com/JA1UXV
-@version        1.4.4
+@version        1.4.5
 @description    Clublog Custom
 @author         JA1UXV
 ==/UserStyle== */
@@ -92,7 +92,6 @@
 @-moz-document url("https://clublog.org/livestream/JA1UXV"),
 url("https://clublog.org/livestream/JO2KQJ") {
 
-
     * {
         font-family: "Audiowide", sans-serif !important;
         font-weight: 400 !important;
@@ -171,22 +170,29 @@ background: linear-gradient(135deg, #00312c 0.000%, #00312c 14.286%, #1e332e cal
 ========================= */
 @-moz-document url("https://clublog.org/dx-dash/?call=JA1UXV"),
 url("https://clublog.org/dx-dash/?call=JO2KQJ") {
-
+    
     html,
     body {
         height: 100%;
         margin: 0;
     }
 
+    body {
+background: linear-gradient(135deg, #222f00 0.000%, #222f00 20.000%, #1f3400 calc(20.000% + 1px), #1f3400 40.000%, #143a73 calc(40.000% + 1px), #143a73 60.000%, #0640d0 calc(60.000% + 1px), #0640d0 80.000%, #0047ec calc(80.000% + 1px) 100.000%) !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        overflow: hidden;
+    }
 
-
-
-
-
+    .dxd-app {
+background: conic-gradient(from 270deg, #bc3036 0.000deg, #bc3036 60.000deg, #dd2358 calc(60.000deg + 0.1deg), #dd2358 120.000deg, #ef227a calc(120.000deg + 0.1deg), #ef227a 180.000deg, #e82c96 calc(180.000deg + 0.1deg), #e82c96 240.000deg, #cc40a6 calc(240.000deg + 0.1deg), #cc40a6 300.000deg, #a95ea7 calc(300.000deg + 0.1deg) 360.000deg) !important;
+    }
+    
     @media (min-width: 1920px) {
         body {
             transform: scale(1.06) !important;
-            transform-origin: center top !important;
+            transform-origin: center center !important;
         }
     }
 
