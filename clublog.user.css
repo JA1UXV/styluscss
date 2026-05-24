@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Clublog
 @namespace      github.com/JA1UXV
-@version        1.4.1
+@version        1.4.2
 @description    Clublog Custom
 @author         JA1UXV
 ==/UserStyle== */
@@ -154,7 +154,7 @@ url("https://clublog.org/livestream/JO2KQJ") {
 
     @media (max-width: 1680px) {
         body {
-            transform: scale(1.53) !important;
+            transform: scale(1.47) !important;
             transform-origin: center center !important;
         }
     }
