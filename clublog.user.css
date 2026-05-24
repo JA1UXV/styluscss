@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Clublog
 @namespace      github.com/JA1UXV
-@version        1.3.11
+@version        1.4.1
 @description    Clublog Custom
 @author         JA1UXV
 ==/UserStyle== */
@@ -92,9 +92,9 @@
 @-moz-document url("https://clublog.org/livestream/JA1UXV"),
 url("https://clublog.org/livestream/JO2KQJ") {
 
+
     * {
-        color: white !important;
-        font-family: "Libertinus Mono", monospace !important;
+        font-family: "Audiowide", sans-serif !important;
         font-weight: 400 !important;
         font-style: normal !important;
     }
@@ -106,30 +106,48 @@ url("https://clublog.org/livestream/JO2KQJ") {
     }
 
     body {
-        background: linear-gradient(135deg, #312c00 0.000%, #312c00 14.286%, #332e1e calc(14.286% + 1px), #332e1e 28.571%, #323149 calc(28.571% + 1px), #323149 42.857%, #2c3377 calc(42.857% + 1px), #2c3377 57.143%, #2436a2 calc(57.143% + 1px), #2436a2 71.429%, #1a39c0 calc(71.429% + 1px), #1a39c0 85.714%, #113ccc calc(85.714% + 1px) 100.000%) !important;
+        background-color: beige !important;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
         overflow: hidden;
-        color: white !important;
     }
 
-    img[src*="https://cdn.clublog.org/images/clublog-black.png"] {
-        content: url("https://jo2kqj.jpn.org/stylus/clublog-transparent_ver2.png") !important;
+    #callsign {
+        color: orangered !important;
     }
 
-    table th {
-        background-color: transparent !important;
+    .ls-app {
+        background-color: honeydew !important;
     }
 
-    .button,
-    .tool-btn {
-        background-color: navy !important;
+    .ls-matrix-wrap {
+        background-color: aliceblue !important;
+    }
+
+    .ls-status-row {
+        background-color: floralwhite !important;
+    }
+
+    td {
+        background-color: ivory !important;
+        color: navy !important;
+        font-family: "Libertinus Mono", monospace !important;
+        font-weight: 400 !important;
+        font-style: normal !important;
+    }
+
+    .ls-stat {
+        background-color: snow !important;
+    }
+
+    .ls-panel-head {
+        background-color: azure !important;
     }
 
     @media (min-width: 1920px) {
         body {
-            transform: scale(1.76) !important;
+            transform: scale(1.53) !important;
             transform-origin: center center !important;
         }
     }
