@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Clublog
 @namespace      github.com/JA1UXV
-@version        1.4.2
+@version        1.4.3
 @description    Clublog Custom
 @author         JA1UXV
 ==/UserStyle== */
@@ -106,11 +106,15 @@ url("https://clublog.org/livestream/JO2KQJ") {
     }
 
     body {
-        background-color: beige !important;
+background: linear-gradient(135deg, #00312c 0.000%, #00312c 14.286%, #1e332e calc(14.286% + 1px), #1e332e 28.571%, #493231 calc(28.571% + 1px), #493231 42.857%, #772c33 calc(42.857% + 1px), #772c33 57.143%, #a22436 calc(57.143% + 1px), #a22436 71.429%, #c01a39 calc(71.429% + 1px), #c01a39 85.714%, #cc113c calc(85.714% + 1px) 100.000%) !important;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
         overflow: hidden;
+    }
+
+    .ls-logo-dark {
+        content: url('https://jo2kqj.jpn.org/stylus/clublog-transparent_ver2.png') !important;
     }
 
     #callsign {
@@ -118,31 +122,34 @@ url("https://clublog.org/livestream/JO2KQJ") {
     }
 
     .ls-app {
-        background-color: honeydew !important;
+        background: conic-gradient(from 90deg, #000004 0.000deg, #000004 72.000deg, #460c6f calc(72.000deg + 0.1deg), #460c6f 144.000deg, #cde87e calc(144.000deg + 0.1deg), #cde87e 216.000deg, #82df1d calc(216.000deg + 0.1deg), #82df1d 288.000deg, #000000 calc(288.000deg + 0.1deg) 360.000deg) !important;
     }
 
     .ls-matrix-wrap {
-        background-color: aliceblue !important;
+        background-color: indigo !important;
     }
 
     .ls-status-row {
-        background-color: floralwhite !important;
+        background-color: teal !important;
+    }
+
+    th {
+        background-color: indigo !important;
     }
 
     td {
-        background-color: ivory !important;
-        color: navy !important;
+        background-color: darkslategray !important;
         font-family: "Libertinus Mono", monospace !important;
         font-weight: 400 !important;
         font-style: normal !important;
     }
 
     .ls-stat {
-        background-color: snow !important;
+        background-color: navy !important;
     }
 
     .ls-panel-head {
-        background-color: azure !important;
+        background-color: navy!important;
     }
 
     @media (min-width: 1920px) {
@@ -155,6 +162,38 @@ url("https://clublog.org/livestream/JO2KQJ") {
     @media (max-width: 1680px) {
         body {
             transform: scale(1.47) !important;
+            transform-origin: center center !important;
+        }
+    }
+}
+
+/* =========================
+    clublog Livestream 
+========================= */
+@-moz-document url("https://clublog.org/dx-dash/?call=JA1UXV"),
+url("https://clublog.org/dx-dash/?call=JO2KQJ") {
+
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+    }
+
+
+
+
+
+
+    @media (min-width: 1920px) {
+        body {
+            transform: scale(1.06) !important;
+            transform-origin: center top !important;
+        }
+    }
+
+    @media (max-width: 1680px) {
+        body {
+            transform: scale(1.00) !important;
             transform-origin: center center !important;
         }
     }
