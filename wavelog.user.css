@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name           Wavelog
 @namespace      github.com/JA1UXV
-@version        1.0.4
+@version        1.0.5
 @description    Wavelog Custom
 @author         JA1UXV
 ==/UserStyle== */
 @import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Libertinus+Mono&display=swap');
 
-@-moz-document domain("wavelog.jo2kqj.com") {
+@-moz-document domain("wavelog.ja1uxv.com"), domain("wavelog.jo2kqj.com") {
 
     body {
         background: #202020 !important;
