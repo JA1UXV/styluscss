@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Wavelog
 @namespace      github.com/JA1UXV
-@version        1.0.5
+@version        1.0.6
 @description    Wavelog Custom
 @author         JA1UXV
 ==/UserStyle== */
@@ -33,17 +33,5 @@
 
     tbody tr:nth-child(odd) td {
         color: palegreen !important;
-    }
-
-    @media (min-width: 1920px) {
-        body {
-            margin: 30px 0 0 0;
-        }
-    }
-
-    @media (max-width: 1680px) {
-        body {
-            margin: 15px 0 0 0;
-        }
     }
 }
