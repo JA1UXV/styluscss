@@ -1,13 +1,15 @@
 /* ==UserStyle==
 @name           Wavelog
 @namespace      github.com/JA1UXV
-@version        1.0.6
+@version        1.0.7
 @description    Wavelog Custom
 @author         JA1UXV
+
 ==/UserStyle== */
 @import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Libertinus+Mono&display=swap');
 
-@-moz-document domain("wavelog.ja1uxv.com"), domain("wavelog.jo2kqj.com") {
+@-moz-document domain("wavelog.ja1uxv.com"),
+domain("wavelog.jo2kqj.com") {
 
     body {
         background: #202020 !important;
@@ -19,6 +21,60 @@
         font-family: "Hachi Maru Pop", cursive !important;
         font-weight: 700 !important;
         font-style: normal !important;
+    }
+
+    tr:first-child th:nth-child(1) {
+        font-size: 0px !important;
+    }
+
+    tr:first-child th:nth-child(2) {
+        font-size: 0px !important;
+    }
+
+    tr:first-child th:nth-child(3) {
+        font-size: 0px !important;
+    }
+
+    tr:first-child th:nth-child(4) {
+        font-size: 0px !important;
+    }
+
+    tr:first-child th:nth-child(5) {
+        font-size: 0px !important;
+    }
+
+    tr:first-child th:nth-child(6) {
+        font-size: 0px !important;
+    }
+
+    tr:first-child th:nth-child(1)::after {
+        content: "Date";
+        font-size: 36px;
+    }
+
+    tr:first-child th:nth-child(2)::after {
+        content: "Callsign";
+        font-size: 36px;
+    }
+
+    tr:first-child th:nth-child(3)::after {
+        content: "Mode";
+        font-size: 36px;
+    }
+
+    tr:first-child th:nth-child(4)::after {
+        content: "Sent";
+        font-size: 36px;
+    }
+
+    tr:first-child th:nth-child(5)::after {
+        content: "Rcvd";
+        font-size: 36px;
+    }
+
+    tr:first-child th:nth-child(6)::after {
+        content: "Band";
+        font-size: 36px;
     }
 
     tbody td {
