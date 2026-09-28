@@ -83,6 +83,12 @@ domain("wavelog.jo2kqj.com") {
         font-style: normal;
     }
 
+    .callsign {
+        font-family: "Libertinus Mono", monospace;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
     tbody tr:nth-child(even) td {
         color: lightcoral !important;
     }
