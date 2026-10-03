@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           HamQTH
 @namespace      github.com/JA1UXV
-@version        1.2.6
+@version        1.2.7
 @description    HamQTH Custom
 @author         JA1UXV
 ==/UserStyle== */
@@ -11,7 +11,7 @@
 @-moz-document domain("hamqth.com") {
 
     body {
-        transform: scale(1.89) !important;
+        transform: scale(1.92) !important;
         transform-origin: center top !important;
         margin: 0 0 0 498px !important;
     }
